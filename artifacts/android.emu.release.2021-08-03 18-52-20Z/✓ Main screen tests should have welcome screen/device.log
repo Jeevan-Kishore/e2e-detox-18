@@ -1,0 +1,73 @@
+--------- beginning of main
+08-04 00:22:30.005 21717 21717 E unknown:FabricViewStateManager: setState called without a StateWrapper
+08-04 00:22:30.005 21717 21773 D SoLoader: Loaded: libimagepipeline.so
+08-04 00:22:30.096 21717 21717 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:22:30.097 21717 21717 I Detox   : Wait is over: app is now idle!
+08-04 00:22:30.102 21717 21762 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:22:30.106 21717 21762 I DetoxDispatcher: Done with action 'isReady'
+08-04 00:22:30.106 21717 21762 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+08-04 00:22:30.106 21717 21762 I DetoxDispatcher: Done with action 'loginSuccess'
+08-04 00:22:30.106 21717 21762 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+08-04 00:22:30.109 21717 21717 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:22:30.110 21717 21717 I Detox   : Wait is over: app is now idle!
+08-04 00:22:30.110 21717 21762 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:22:30.110 21717 21762 I DetoxDispatcher: Done with action 'isReady'
+08-04 00:22:30.166 21717 21764 D DetoxWSClient: Received action 'reactNativeReload' (ID #-1000, params={})
+08-04 00:22:30.166 21717 21762 I DetoxDispatcher: Handling action 'reactNativeReload' (ID #-1000)...
+08-04 00:22:30.169 21717 21717 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:22:30.173 21717 21717 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:22:30.173 21717 21762 I DetoxRNExt: Reloading React Native
+08-04 00:22:30.189 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+08-04 00:22:30.190 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+08-04 00:22:30.191 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+08-04 00:22:30.191 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+08-04 00:22:30.191 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+08-04 00:22:30.191 21717 21717 D DetoxRNLoading: Got new RN-context directly and immediately
+08-04 00:22:30.192 21717 21762 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+08-04 00:22:30.194 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+08-04 00:22:30.194 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+08-04 00:22:30.195 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+08-04 00:22:30.195 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+08-04 00:22:30.196 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+08-04 00:22:30.197 21717 21762 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+08-04 00:22:30.197 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+08-04 00:22:30.197 21717 21762 D DetoxRNHelpers: Native RN module resolution (class com.reactnativecommunity.asyncstorage.AsyncStorageModule): no such class
+08-04 00:22:30.197 21717 21762 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+08-04 00:22:30.197 21717 21762 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+08-04 00:22:30.197 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+08-04 00:22:30.198 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+08-04 00:22:30.198 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+08-04 00:22:30.200 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+08-04 00:22:30.200 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+08-04 00:22:30.200 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+08-04 00:22:30.201 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+08-04 00:22:30.201 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+08-04 00:22:30.202 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+08-04 00:22:30.202 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+08-04 00:22:30.202 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+08-04 00:22:30.209 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+08-04 00:22:30.210 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+08-04 00:22:30.211 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+08-04 00:22:30.211 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+08-04 00:22:30.212 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+08-04 00:22:30.212 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+08-04 00:22:30.212 21717 21783 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+08-04 00:22:30.213 21717 21717 D AsyncStorageIRLegacy: Async-storage is busy!
+08-04 00:22:30.214 21717 21762 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:22:30.214 21717 21762 I DetoxDispatcher: Done with action 'reactNativeReload'
+08-04 00:22:30.214 21717 21717 I Detox   : UIManagerModule is busy
+08-04 00:22:30.215 21717 21717 I IdlingResourceRegistry: Ignoring message from unregistered resource: androidx.test.espresso.base.LooperIdlingResourceInterrogationHandler@caa36a
+08-04 00:22:30.215 21717 21717 I IdlingResourceRegistry: Ignoring message from unregistered resource: androidx.test.espresso.base.LooperIdlingResourceInterrogationHandler@caa36a
+08-04 00:22:30.215 21717 21717 I IdlingResourceRegistry: Ignoring message from unregistered resource: androidx.test.espresso.base.LooperIdlingResourceInterrogationHandler@20e105b
+08-04 00:22:30.221 21717 21764 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["welcome"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNotNull","args":[]}}]})
+08-04 00:22:30.222 21717 21762 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+08-04 00:22:30.234 21717 21762 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [welcome]
+08-04 00:22:30.245 21717 21782 I ReactNativeJS: Running "rnDetox" with {"rootTag":11}
+08-04 00:22:30.258 21717 21762 D Detox   : class androidx.test.espresso.Espresso, onView, [(with tag value: is "welcome" and view has effective visibility=VISIBLE)]
+08-04 00:22:30.258 21717 21762 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNotNull, []
+08-04 00:22:30.259 21717 21762 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@ae4d710, not null]
+08-04 00:22:30.528 21717 21717 E unknown:FabricViewStateManager: setState called without a StateWrapper
+08-04 00:22:30.548 21717 21717 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:22:30.564 21717 21717 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=not null}' assertion on view (with tag value: is "welcome" and view has effective visibility=VISIBLE)
+08-04 00:22:30.566 21717 21762 I DetoxWSClient: Sending out action 'invokeResult' (ID #1)
+08-04 00:22:30.566 21717 21762 I DetoxDispatcher: Done with action 'invoke'

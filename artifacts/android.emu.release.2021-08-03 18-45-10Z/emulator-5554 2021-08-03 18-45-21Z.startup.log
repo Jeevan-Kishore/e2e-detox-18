@@ -1,0 +1,188 @@
+--------- beginning of main
+08-04 00:15:17.011 19962 19962 W com.rndetox: Unexpected CPU variant for X86 using defaults: x86
+08-04 00:15:17.016 19962 19962 E com.rndetox: Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of system
+08-04 00:15:17.118 19962 19962 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.rndetox]: x86, null instrumentation[com.rndetox.test]: null, null
+08-04 00:15:17.161 19962 19962 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-04 00:15:17.163 19962 19962 I chatty  : uid=10515(com.rndetox) identical 1 line
+08-04 00:15:17.163 19962 19962 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-04 00:15:17.164 19962 19962 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-04 00:15:17.254 19962 19962 W com.rndetox: ClassLoaderContext classpath size mismatch. expected=0, found=4 (PCL[]{PCL[/system/framework/android.test.base.jar*84046222]} | PCL[/system/framework/android.test.runner.jar*2838042966:/system/framework/android.test.mock.jar*2353512044:/system/framework/android.test.base.jar*84046222:/data/app/~~LYbXFsH_rz3iLFPx2mtyHg==/com.rndetox.test-HRSHqDkcnDNn2v364WSB3A==/base.apk*56323712]{PCL[/system/framework/android.test.base.jar*84046222]})
+08-04 00:15:17.342 19962 19962 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-04 00:15:17.345 19962 19962 I chatty  : uid=10515(com.rndetox) identical 3 lines
+08-04 00:15:17.347 19962 19962 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-04 00:15:17.415 19962 19962 W com.rndetox: ClassLoaderContext classpath size mismatch. expected=0, found=4 (PCL[]{PCL[/system/framework/android.test.base.jar*84046222]} | PCL[/system/framework/android.test.runner.jar*2838042966:/system/framework/android.test.mock.jar*2353512044:/system/framework/android.test.base.jar*84046222:/data/app/~~LYbXFsH_rz3iLFPx2mtyHg==/com.rndetox.test-HRSHqDkcnDNn2v364WSB3A==/base.apk*56323712]{PCL[/system/framework/android.test.base.jar*84046222]#PCL[/system/framework/android.test.mock.jar*2353512044]{PCL[/system/framework/android.test.base.jar*84046222]}#PCL[/system/framework/android.test.runner.jar*2838042966]{PCL[/system/framework/android.test.base.jar*84046222]#PCL[/system/framework/android.test.mock.jar*2353512044]{PCL[/system/framework/android.test.base.jar*84046222]}}};PCL[/system/framework/android.test.runner.jar*2838042966:/system/framework/android.test.mock.jar*2353512044:/system/framework/android.test.base.jar*84046222:/data/app/~~LYbXFsH_rz3iLFPx2mtyHg==/com.rndetox.test-HRSHqDkcnDNn2v364WSB3A==/base.apk*56323712:/data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/base.apk*1949305130]{PCL[/system/framework/android.test.base.jar*84046222]})
+08-04 00:15:17.415 19962 19962 W com.rndetox: Found duplicate classes, falling back to extracting from APK : /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/base.apk
+08-04 00:15:17.415 19962 19962 W com.rndetox: NOTE: This wastes RAM and hurts startup performance.
+08-04 00:15:17.415 19962 19962 W com.rndetox: Found duplicated class when checking oat files: 'Landroid/support/v4/app/INotificationSideChannel$Stub$Proxy;' in /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/base.apk and /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/base.apk
+08-04 00:15:17.415 19962 19962 W com.rndetox: 
+08-04 00:15:17.479 19962 19962 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+08-04 00:15:17.480 19962 19962 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+08-04 00:15:17.481 19962 19962 I MonitoringInstr: Instrumentation started!
+08-04 00:15:17.502 19962 19962 D SoLoader: init start
+08-04 00:15:17.503 19962 19962 D SoLoader: adding system library source: /vendor/lib
+08-04 00:15:17.503 19962 19962 D SoLoader: adding system library source: /system/lib
+08-04 00:15:17.504 19962 19962 D SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/lib/x86 flags = 0]
+08-04 00:15:17.505 19962 19962 D SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/user/0/com.rndetox/lib-main flags = 1]
+08-04 00:15:17.505 19962 19962 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+08-04 00:15:17.505 19962 19962 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+08-04 00:15:17.505 19962 19962 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/lib/x86 flags = 0]
+08-04 00:15:17.505 19962 19962 D SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/user/0/com.rndetox/lib-main flags = 1]
+08-04 00:15:17.506 19962 19962 V fb-UnpackingSoSource: locked dso store /data/user/0/com.rndetox/lib-main
+08-04 00:15:17.514 19962 19962 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+08-04 00:15:17.514 19962 19962 V fb-UnpackingSoSource: so store dirty: regenerating
+08-04 00:15:17.526 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libc++_shared.so: deferring to libdir
+08-04 00:15:17.526 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libfb.so: deferring to libdir
+08-04 00:15:17.526 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libfbjni.so: deferring to libdir
+08-04 00:15:17.526 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libfolly_futures.so: deferring to libdir
+08-04 00:15:17.526 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libfolly_json.so: deferring to libdir
+08-04 00:15:17.526 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libglog.so: deferring to libdir
+08-04 00:15:17.526 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libglog_init.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-common-debug.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-common-release.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-debug.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-release.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libhermes-inspector.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libimagepipeline.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libjsc.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libjscexecutor.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libjsijniprofiler.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libjsinspector.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libnative-filters.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libnative-imagetranscoder.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libreact_codegen_reactandroidspec.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libreact_nativemodule_core.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libreactnativeblob.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libreactnativejni.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libreactnativeutilsjni.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libreactperfloggerjni.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libturbomodulejsijni.so: deferring to libdir
+08-04 00:15:17.527 19962 19962 D ApkSoSource: not allowing consideration of lib/x86/libyoga.so: deferring to libdir
+08-04 00:15:17.529 19962 19962 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+08-04 00:15:17.530 19962 19962 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+08-04 00:15:17.530 19962 19962 V fb-UnpackingSoSource: starting syncer worker
+08-04 00:15:17.539 19962 19962 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.rndetox/lib-main (from syncer thread)
+08-04 00:15:17.539 19962 19962 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/com.rndetox/lib-main (syncer thread started)
+08-04 00:15:17.539 19962 19962 D SoLoader: init finish: 4 SO sources prepared
+08-04 00:15:17.539 19962 19962 D SoLoader: init exiting
+08-04 00:15:17.540 19962 19962 D SoLoader: init exiting
+08-04 00:15:17.540 19962 19962 D SoLoader: About to load: libjscexecutor.so
+08-04 00:15:17.540 19962 19962 D SoLoader: libjscexecutor.so not found on /data/user/0/com.rndetox/lib-main
+08-04 00:15:17.540 19962 19962 D SoLoader: libjscexecutor.so found on /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/lib/x86
+08-04 00:15:17.540 19962 19962 D SoLoader: Not resolving dependencies for libjscexecutor.so
+08-04 00:15:17.548 19962 19962 D JavaScriptCore.Version: 245459.0.0
+08-04 00:15:17.549 19962 19962 D SoLoader: Loaded: libjscexecutor.so
+08-04 00:15:17.551 19962 19962 D SoLoader: init exiting
+08-04 00:15:17.558 19962 19962 I MonitoringInstr: No JSBridge.
+08-04 00:15:17.576 19962 19990 I UsageTrackerFacilitator: Usage tracking enabled
+08-04 00:15:17.582 19962 19990 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~LYbXFsH_rz3iLFPx2mtyHg==/com.rndetox.test-HRSHqDkcnDNn2v364WSB3A==/base.apk]
+08-04 00:15:17.583 19962 19990 W com.rndetox: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+08-04 00:15:18.213 19962 19990 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+08-04 00:15:18.214 19962 19990 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+08-04 00:15:18.214 19962 19990 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+08-04 00:15:18.215 19962 19990 I TestRunner: run started: 1 tests
+08-04 00:15:18.221 19962 19990 I TestRunner: started: runDetoxTests(com.rndetox.DetoxTest)
+08-04 00:15:18.272 19962 19990 D EventInjectionStrategy: Creating injection strategy with input manager.
+08-04 00:15:18.325 19962 19997 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+08-04 00:15:18.326 19962 19997 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+08-04 00:15:18.328 19962 19997 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+08-04 00:15:18.353 19962 19962 D LifecycleMonitor: Lifecycle status change: com.rndetox.MainActivity@41495a in: PRE_ON_CREATE
+08-04 00:15:18.367 19962 19998 D SoLoader: About to load: libreactnativejni.so
+08-04 00:15:18.367 19962 19998 D SoLoader: libreactnativejni.so not found on /data/user/0/com.rndetox/lib-main
+08-04 00:15:18.367 19962 19998 D SoLoader: libreactnativejni.so found on /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/lib/x86
+08-04 00:15:18.367 19962 19998 D SoLoader: Not resolving dependencies for libreactnativejni.so
+08-04 00:15:18.370 19962 19998 D SoLoader: Loaded: libreactnativejni.so
+08-04 00:15:18.370 19962 19998 D SoLoader: About to load: libfbjni.so
+08-04 00:15:18.371 19962 19998 D SoLoader: libfbjni.so not found on /data/user/0/com.rndetox/lib-main
+08-04 00:15:18.371 19962 19998 D SoLoader: libfbjni.so found on /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/lib/x86
+08-04 00:15:18.371 19962 19998 D SoLoader: Not resolving dependencies for libfbjni.so
+08-04 00:15:18.372 19962 19998 D SoLoader: Loaded: libfbjni.so
+08-04 00:15:18.378 19962 19962 D LifecycleMonitor: Lifecycle status change: com.rndetox.MainActivity@41495a in: CREATED
+08-04 00:15:18.380 19962 19962 D LifecycleMonitor: Lifecycle status change: com.rndetox.MainActivity@41495a in: STARTED
+08-04 00:15:18.381 19962 19962 D LifecycleMonitor: Lifecycle status change: com.rndetox.MainActivity@41495a in: RESUMED
+08-04 00:15:18.417 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+08-04 00:15:18.425 19962 20001 D SoLoader: init exiting
+08-04 00:15:18.429 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+08-04 00:15:18.435 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+08-04 00:15:18.440 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+08-04 00:15:18.446 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+08-04 00:15:18.451 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+08-04 00:15:18.455 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+08-04 00:15:18.462 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+08-04 00:15:18.463 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+08-04 00:15:18.467 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+08-04 00:15:18.470 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+08-04 00:15:18.470 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+08-04 00:15:18.477 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+08-04 00:15:18.477 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+08-04 00:15:18.479 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+08-04 00:15:18.480 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+08-04 00:15:18.480 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+08-04 00:15:18.487 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+08-04 00:15:18.488 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+08-04 00:15:18.492 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+08-04 00:15:18.493 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+08-04 00:15:18.493 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+08-04 00:15:18.495 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+08-04 00:15:18.496 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+08-04 00:15:18.499 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+08-04 00:15:18.500 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+08-04 00:15:18.501 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+08-04 00:15:18.502 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+08-04 00:15:18.502 19962 19962 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+08-04 00:15:18.509 19962 19962 D SoLoader: About to load: libyoga.so
+08-04 00:15:18.509 19962 19962 D SoLoader: libyoga.so not found on /data/user/0/com.rndetox/lib-main
+08-04 00:15:18.510 19962 19962 D SoLoader: libyoga.so found on /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/lib/x86
+08-04 00:15:18.510 19962 19962 D SoLoader: Not resolving dependencies for libyoga.so
+08-04 00:15:18.513 19962 19962 D SoLoader: Loaded: libyoga.so
+08-04 00:15:18.529 19962 19995 D HostConnection: HostConnection::get() New Host Connection established 0xe97d2f10, tid 19995
+08-04 00:15:18.532 19962 20000 I ReactNativeJS: Running "rnDetox" with {"rootTag":1}
+08-04 00:15:18.533 19962 19995 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+08-04 00:15:18.537 19962 19995 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+08-04 00:15:18.538 19962 19995 D EGL_emulation: eglCreateContext: 0xe95c2cb0: maj 3 min 0 rcv 3
+08-04 00:15:18.561 19962 19995 D EGL_emulation: eglMakeCurrent: 0xe95c2cb0: ver 3 0 (tinfo 0xba282550)
+08-04 00:15:18.581 19962 19995 I Gralloc4: mapper 4.x is not supported
+08-04 00:15:18.582 19962 19995 D HostConnection: createUnique: call
+08-04 00:15:18.582 19962 19995 D HostConnection: HostConnection::get() New Host Connection established 0xe97d44d0, tid 19995
+08-04 00:15:18.583 19962 19995 D eglCodecCommon: allocate: Ask for block of size 0x100
+08-04 00:15:18.583 19962 19995 D eglCodecCommon: allocate: ioctl allocate returned offset 0x3fbf52000 size 0x2000
+08-04 00:15:18.616 19962 19995 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+08-04 00:15:18.624 19962 19995 D EGL_emulation: eglMakeCurrent: 0xe95c2cb0: ver 3 0 (tinfo 0xba282550)
+08-04 00:15:18.713 19962 19990 I Detox   : Detox server connection details: url=ws://localhost:49669, sessionId=552b725e-9165-5cc1-b185-2df62d1097e2
+08-04 00:15:18.740 19962 20007 I DetoxDispatcher: Handling action '_init' (ID #0)...
+08-04 00:15:18.740 19962 20007 I Detox   : Connecting to server...
+08-04 00:15:18.740 19962 20007 I DetoxWSClient: At connectToServer
+08-04 00:15:18.759 19962 20010 D DetoxWSClient: At onOpen
+08-04 00:15:18.760 19962 19962 D DetoxRNLoading: Got new RN-context directly and immediately
+08-04 00:15:18.760 19962 20010 I DetoxWSClient: Sending out action 'login' (ID #0)
+08-04 00:15:18.761 19962 20010 I Detox   : Connected to server!
+08-04 00:15:18.762 19962 20007 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+08-04 00:15:18.770 19962 20010 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+08-04 00:15:18.772 19962 20010 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+08-04 00:15:18.778 19962 20007 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+08-04 00:15:18.779 19962 20007 D DetoxRNHelpers: Native RN module resolution (class com.reactnativecommunity.asyncstorage.AsyncStorageModule): no such class
+08-04 00:15:18.779 19962 20007 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+08-04 00:15:18.779 19962 20007 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+08-04 00:15:18.783 19962 19962 D AsyncStorageIRLegacy: Async-storage is busy!
+08-04 00:15:18.787 19962 20007 I DetoxDispatcher: Done with action '_init'
+08-04 00:15:18.787 19962 20007 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+08-04 00:15:18.986 19962 19962 I Detox   : UIManagerModule is busy
+08-04 00:15:19.008 19962 19962 E unknown:FabricViewStateManager: setState called without a StateWrapper
+08-04 00:15:19.009 19962 20019 D SoLoader: About to load: libimagepipeline.so
+08-04 00:15:19.015 19962 20019 D SoLoader: libimagepipeline.so not found on /data/user/0/com.rndetox/lib-main
+08-04 00:15:19.015 19962 20019 D SoLoader: libimagepipeline.so found on /data/app/~~-Zdx5V9TALePtHTVq7ntnQ==/com.rndetox-CeBwSyHsDi3vE9UFcrPHMg==/lib/x86
+08-04 00:15:19.015 19962 20019 D SoLoader: Not resolving dependencies for libimagepipeline.so
+08-04 00:15:19.021 19962 20019 D SoLoader: Loaded: libimagepipeline.so
+08-04 00:15:19.096 19962 19962 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:15:19.099 19962 19962 I Detox   : Wait is over: app is now idle!
+08-04 00:15:19.114 19962 20007 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:15:19.119 19962 20007 I DetoxDispatcher: Done with action 'isReady'
+08-04 00:15:19.119 19962 20007 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+08-04 00:15:19.119 19962 20007 I DetoxDispatcher: Done with action 'loginSuccess'
+08-04 00:15:19.119 19962 20007 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+08-04 00:15:19.143 19962 19962 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:15:19.149 19962 19962 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:15:19.150 19962 19962 I Detox   : Wait is over: app is now idle!
+08-04 00:15:19.155 19962 20007 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:15:19.157 19962 19974 I com.rndetox: Background young concurrent copying GC freed 268413(14MB) AllocSpace objects, 1(36KB) LOS objects, 84% free, 4423KB/28MB, paused 2.338ms total 144.852ms
+08-04 00:15:19.168 19962 20007 I DetoxDispatcher: Done with action 'isReady'

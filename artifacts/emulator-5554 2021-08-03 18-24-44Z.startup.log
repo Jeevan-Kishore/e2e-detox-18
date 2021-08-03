@@ -1,0 +1,84 @@
+--------- beginning of main
+08-03 23:54:41.478 18691 18691 W com.rndetox: Unexpected CPU variant for X86 using defaults: x86
+08-03 23:54:41.488 18691 18691 E com.rndetox: Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of system
+08-03 23:54:41.554 18691 18691 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.rndetox]: x86, null instrumentation[com.rndetox.test]: null, null
+08-03 23:54:41.641 18691 18691 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-03 23:54:41.645 18691 18691 I chatty  : uid=10507(com.rndetox) identical 2 lines
+08-03 23:54:41.646 18691 18691 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-03 23:54:41.737 18691 18691 W com.rndetox: ClassLoaderContext classpath size mismatch. expected=0, found=4 (PCL[]{PCL[/system/framework/android.test.base.jar*84046222]} | PCL[/system/framework/android.test.runner.jar*2838042966:/system/framework/android.test.mock.jar*2353512044:/system/framework/android.test.base.jar*84046222:/data/app/~~zLIh5nDedD0vd3TEz5Lhig==/com.rndetox.test-MvlWn0YW52DYlpHxpeKp7g==/base.apk*4073767978]{PCL[/system/framework/android.test.base.jar*84046222]})
+08-03 23:54:41.812 18691 18691 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-03 23:54:41.815 18691 18691 I chatty  : uid=10507(com.rndetox) identical 3 lines
+08-03 23:54:41.816 18691 18691 I com.rndetox: The ClassLoaderContext is a special shared library.
+08-03 23:54:41.882 18691 18691 W com.rndetox: ClassLoaderContext classpath size mismatch. expected=0, found=4 (PCL[]{PCL[/system/framework/android.test.base.jar*84046222]} | PCL[/system/framework/android.test.runner.jar*2838042966:/system/framework/android.test.mock.jar*2353512044:/system/framework/android.test.base.jar*84046222:/data/app/~~zLIh5nDedD0vd3TEz5Lhig==/com.rndetox.test-MvlWn0YW52DYlpHxpeKp7g==/base.apk*4073767978]{PCL[/system/framework/android.test.base.jar*84046222]#PCL[/system/framework/android.test.mock.jar*2353512044]{PCL[/system/framework/android.test.base.jar*84046222]}#PCL[/system/framework/android.test.runner.jar*2838042966]{PCL[/system/framework/android.test.base.jar*84046222]#PCL[/system/framework/android.test.mock.jar*2353512044]{PCL[/system/framework/android.test.base.jar*84046222]}}};PCL[/system/framework/android.test.runner.jar*2838042966:/system/framework/android.test.mock.jar*2353512044:/system/framework/android.test.base.jar*84046222:/data/app/~~zLIh5nDedD0vd3TEz5Lhig==/com.rndetox.test-MvlWn0YW52DYlpHxpeKp7g==/base.apk*4073767978:/data/app/~~4rBxy8Bm2QNNdqgAkYmBmQ==/com.rndetox-mXFrQ3z2paAj7ZoaQBbEmg==/base.apk*1949305130]{PCL[/system/framework/android.test.base.jar*84046222]})
+08-03 23:54:41.883 18691 18691 W com.rndetox: Found duplicate classes, falling back to extracting from APK : /data/app/~~4rBxy8Bm2QNNdqgAkYmBmQ==/com.rndetox-mXFrQ3z2paAj7ZoaQBbEmg==/base.apk
+08-03 23:54:41.883 18691 18691 W com.rndetox: NOTE: This wastes RAM and hurts startup performance.
+08-03 23:54:41.883 18691 18691 W com.rndetox: Found duplicated class when checking oat files: 'Landroid/support/v4/app/INotificationSideChannel$Stub$Proxy;' in /data/app/~~4rBxy8Bm2QNNdqgAkYmBmQ==/com.rndetox-mXFrQ3z2paAj7ZoaQBbEmg==/base.apk and /data/app/~~4rBxy8Bm2QNNdqgAkYmBmQ==/com.rndetox-mXFrQ3z2paAj7ZoaQBbEmg==/base.apk
+08-03 23:54:41.883 18691 18691 W com.rndetox: 
+08-03 23:54:41.970 18691 18691 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+08-03 23:54:41.971 18691 18691 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+08-03 23:54:41.972 18691 18691 I MonitoringInstr: Instrumentation started!
+08-03 23:54:41.993 18691 18691 D SoLoader: init start
+08-03 23:54:41.993 18691 18691 D SoLoader: adding system library source: /vendor/lib
+08-03 23:54:41.994 18691 18691 D SoLoader: adding system library source: /system/lib
+08-03 23:54:41.994 18691 18691 D SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/~~4rBxy8Bm2QNNdqgAkYmBmQ==/com.rndetox-mXFrQ3z2paAj7ZoaQBbEmg==/lib/x86 flags = 0]
+08-03 23:54:41.994 18691 18691 D SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/user/0/com.rndetox/lib-main flags = 1]
+08-03 23:54:41.994 18691 18691 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+08-03 23:54:41.994 18691 18691 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+08-03 23:54:41.994 18691 18691 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/~~4rBxy8Bm2QNNdqgAkYmBmQ==/com.rndetox-mXFrQ3z2paAj7ZoaQBbEmg==/lib/x86 flags = 0]
+08-03 23:54:41.994 18691 18691 D SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/user/0/com.rndetox/lib-main flags = 1]
+08-03 23:54:41.995 18691 18691 V fb-UnpackingSoSource: locked dso store /data/user/0/com.rndetox/lib-main
+08-03 23:54:42.026 18691 18691 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+08-03 23:54:42.026 18691 18691 V fb-UnpackingSoSource: so store dirty: regenerating
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libc++_shared.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libfb.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libfbjni.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libfolly_futures.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libfolly_json.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libglog.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libglog_init.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-common-debug.so: deferring to libdir
+08-03 23:54:42.052 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-common-release.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-debug.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libhermes-executor-release.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libhermes-inspector.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libimagepipeline.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libjsc.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libjscexecutor.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libjsijniprofiler.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libjsinspector.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libnative-filters.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libnative-imagetranscoder.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libreact_codegen_reactandroidspec.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libreact_nativemodule_core.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libreactnativeblob.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libreactnativejni.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libreactnativeutilsjni.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libreactperfloggerjni.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libturbomodulejsijni.so: deferring to libdir
+08-03 23:54:42.053 18691 18691 D ApkSoSource: not allowing consideration of lib/x86/libyoga.so: deferring to libdir
+08-03 23:54:42.054 18691 18691 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+08-03 23:54:42.054 18691 18691 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+08-03 23:54:42.054 18691 18691 V fb-UnpackingSoSource: starting syncer worker
+08-03 23:54:42.067 18691 18691 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.rndetox/lib-main (from syncer thread)
+08-03 23:54:42.067 18691 18691 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/com.rndetox/lib-main (syncer thread started)
+08-03 23:54:42.067 18691 18691 D SoLoader: init finish: 4 SO sources prepared
+08-03 23:54:42.067 18691 18691 D SoLoader: init exiting
+08-03 23:54:42.068 18691 18691 D SoLoader: init exiting
+08-03 23:54:42.068 18691 18691 D SoLoader: About to load: libjscexecutor.so
+08-03 23:54:42.069 18691 18691 D SoLoader: libjscexecutor.so not found on /data/user/0/com.rndetox/lib-main
+08-03 23:54:42.069 18691 18691 D SoLoader: libjscexecutor.so found on /data/app/~~4rBxy8Bm2QNNdqgAkYmBmQ==/com.rndetox-mXFrQ3z2paAj7ZoaQBbEmg==/lib/x86
+08-03 23:54:42.069 18691 18691 D SoLoader: Not resolving dependencies for libjscexecutor.so
+08-03 23:54:42.076 18691 18691 D JavaScriptCore.Version: 245459.0.0
+08-03 23:54:42.077 18691 18691 D SoLoader: Loaded: libjscexecutor.so
+08-03 23:54:42.077 18691 18691 D SoLoader: init exiting
+08-03 23:54:42.104 18691 18691 I MonitoringInstr: No JSBridge.
+08-03 23:54:42.125 18691 18719 I UsageTrackerFacilitator: Usage tracking enabled
+08-03 23:54:42.130 18691 18719 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~zLIh5nDedD0vd3TEz5Lhig==/com.rndetox.test-MvlWn0YW52DYlpHxpeKp7g==/base.apk]
+08-03 23:54:42.131 18691 18719 W com.rndetox: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+08-03 23:54:42.702 18691 18719 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+08-03 23:54:42.703 18691 18719 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+08-03 23:54:42.703 18691 18719 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+08-03 23:54:42.705 18691 18719 I TestRunner: run started: 1 tests
+08-03 23:54:42.705 18691 18719 I TestRunner: run finished: 0 tests, 0 failed, 0 ignored
+08-03 23:54:42.904 18691 18719 I MonitoringInstr: waitForActivitiesToComplete() took: 0ms

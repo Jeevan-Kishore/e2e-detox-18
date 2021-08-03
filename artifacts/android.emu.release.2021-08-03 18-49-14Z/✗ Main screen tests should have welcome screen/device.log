@@ -1,0 +1,135 @@
+--------- beginning of main
+08-04 00:19:22.016 20885 20885 D DetoxRNLoading: Got new RN-context directly and immediately
+08-04 00:19:22.022 20885 20928 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+08-04 00:19:22.046 20885 20897 I com.rndetox: Background young concurrent copying GC freed 253993(14MB) AllocSpace objects, 1(36KB) LOS objects, 86% free, 3917KB/27MB, paused 17.822ms total 113.824ms
+08-04 00:19:22.049 20885 20934 D DetoxWSClient: At onOpen
+08-04 00:19:22.049 20885 20934 I DetoxWSClient: Sending out action 'login' (ID #0)
+08-04 00:19:22.049 20885 20934 I Detox   : Connected to server!
+08-04 00:19:22.050 20885 20928 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+08-04 00:19:22.050 20885 20928 D DetoxRNHelpers: Native RN module resolution (class com.reactnativecommunity.asyncstorage.AsyncStorageModule): no such class
+08-04 00:19:22.050 20885 20928 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+08-04 00:19:22.051 20885 20928 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+08-04 00:19:22.054 20885 20885 D AsyncStorageIRLegacy: Async-storage is busy!
+08-04 00:19:22.055 20885 20934 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+08-04 00:19:22.057 20885 20934 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+08-04 00:19:22.059 20885 20928 I DetoxDispatcher: Done with action '_init'
+08-04 00:19:22.059 20885 20928 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+08-04 00:19:22.285 20885 20943 D SoLoader: About to load: libimagepipeline.so
+08-04 00:19:22.286 20885 20943 D SoLoader: libimagepipeline.so not found on /data/user/0/com.rndetox/lib-main
+08-04 00:19:22.286 20885 20943 D SoLoader: libimagepipeline.so found on /data/app/~~iC45_OBM6f_krJw7hG9bng==/com.rndetox-QoXz_UBTlijNe-bU0o0kbw==/lib/x86
+08-04 00:19:22.286 20885 20943 D SoLoader: Not resolving dependencies for libimagepipeline.so
+08-04 00:19:22.288 20885 20885 E unknown:FabricViewStateManager: setState called without a StateWrapper
+08-04 00:19:22.294 20885 20943 D SoLoader: Loaded: libimagepipeline.so
+08-04 00:19:22.361 20885 20885 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:19:22.361 20885 20885 I Detox   : Wait is over: app is now idle!
+08-04 00:19:22.366 20885 20928 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:19:22.368 20885 20928 I DetoxDispatcher: Done with action 'isReady'
+08-04 00:19:22.368 20885 20928 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+08-04 00:19:22.368 20885 20928 I DetoxDispatcher: Done with action 'loginSuccess'
+08-04 00:19:22.368 20885 20928 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+08-04 00:19:22.371 20885 20885 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:19:22.374 20885 20885 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:19:22.374 20885 20885 I Detox   : Wait is over: app is now idle!
+08-04 00:19:22.375 20885 20928 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:19:22.375 20885 20928 I DetoxDispatcher: Done with action 'isReady'
+08-04 00:19:22.426 20885 20934 D DetoxWSClient: Received action 'reactNativeReload' (ID #-1000, params={})
+08-04 00:19:22.426 20885 20928 I DetoxDispatcher: Handling action 'reactNativeReload' (ID #-1000)...
+08-04 00:19:22.429 20885 20885 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:19:22.430 20885 20885 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:19:22.435 20885 20928 I DetoxRNExt: Reloading React Native
+08-04 00:19:22.457 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+08-04 00:19:22.458 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+08-04 00:19:22.459 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+08-04 00:19:22.459 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+08-04 00:19:22.459 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+08-04 00:19:22.460 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+08-04 00:19:22.461 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+08-04 00:19:22.461 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+08-04 00:19:22.461 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+08-04 00:19:22.462 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+08-04 00:19:22.462 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+08-04 00:19:22.462 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+08-04 00:19:22.462 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+08-04 00:19:22.463 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+08-04 00:19:22.463 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+08-04 00:19:22.463 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+08-04 00:19:22.463 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+08-04 00:19:22.463 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+08-04 00:19:22.465 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+08-04 00:19:22.465 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+08-04 00:19:22.465 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+08-04 00:19:22.465 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+08-04 00:19:22.466 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+08-04 00:19:22.467 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+08-04 00:19:22.467 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+08-04 00:19:22.467 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+08-04 00:19:22.469 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+08-04 00:19:22.469 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+08-04 00:19:22.469 20885 20954 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+08-04 00:19:22.470 20885 20885 I DetoxRNLoading: Got new RN-context async'ly through listener
+08-04 00:19:22.471 20885 20928 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+08-04 00:19:22.475 20885 20928 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+08-04 00:19:22.476 20885 20928 D DetoxRNHelpers: Native RN module resolution (class com.reactnativecommunity.asyncstorage.AsyncStorageModule): no such class
+08-04 00:19:22.476 20885 20928 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+08-04 00:19:22.476 20885 20928 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+08-04 00:19:22.476 20885 20885 D AsyncStorageIRLegacy: Async-storage is busy!
+08-04 00:19:22.478 20885 20928 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+08-04 00:19:22.478 20885 20928 I DetoxDispatcher: Done with action 'reactNativeReload'
+08-04 00:19:22.484 20885 20934 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["welcome"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForNotNull","args":[]}}]})
+08-04 00:19:22.484 20885 20928 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+08-04 00:19:22.497 20885 20928 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [welcome]
+08-04 00:19:22.504 20885 20953 I ReactNativeJS: Running "rnDetox" with {"rootTag":11}
+08-04 00:19:22.519 20885 20928 D Detox   : class androidx.test.espresso.Espresso, onView, [(with tag value: is "welcome" and view has effective visibility=VISIBLE)]
+08-04 00:19:22.521 20885 20928 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForNotNull, []
+08-04 00:19:22.522 20885 20928 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@41835c2, not null]
+08-04 00:19:22.811 20885 20885 E unknown:FabricViewStateManager: setState called without a StateWrapper
+08-04 00:19:22.831 20885 20885 D IdlingResourceRegistry: All idling resources are idle.
+08-04 00:19:22.918 20885 20885 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=not null}' assertion on view (with tag value: is "welcome" and view has effective visibility=VISIBLE)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: Test exception
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: java.lang.reflect.InvocationTargetException
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:443)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:405)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.invoke.types.ClassTarget.execute(ClassTarget.java:23)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.invoke.types.Target.invoke(Target.java:59)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:35)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:26)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:20)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.InvokeActionHandler.handle(DetoxActionHandlers.kt:56)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$executeAction$$inlined$let$lambda$1.run(DetoxActionsDispatcher.kt:64)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:907)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:223)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$1.run(DetoxActionsDispatcher.kt:50)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at java.lang.Thread.run(Thread.java:923)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: Caused by: androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: 'not null' doesn't match the selected view.
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: Expected: not null
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers:      Got: null
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at java.lang.Thread.getStackTrace(Thread.java:1736)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:16)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:36)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:103)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:31)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.detox.espresso.DetoxAssertion.assertMatcher(DetoxAssertion.java:32)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	... 15 more
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: Caused by: junit.framework.AssertionFailedError: 'not null' doesn't match the selected view.
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: Expected: not null
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers:      Got: null
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:17)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.wix.detox.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:52)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:10)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:11)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:2)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:907)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:223)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at android.app.ActivityThread.main(ActivityThread.java:7478)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:549)
+08-04 00:19:22.924 20885 20928 I DetoxActionHandlers: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:941)
+08-04 00:19:22.963 20885 20928 I DetoxWSClient: Sending out action 'testFailed' (ID #1)
+08-04 00:19:22.964 20885 20928 I DetoxDispatcher: Done with action 'invoke'
